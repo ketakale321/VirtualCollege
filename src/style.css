@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: rgb(54, 71, 79);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-links {
+  padding: 0;
+  color: azure;
+  list-style-type: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 6em;
+  width: 10em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.header-links li {
+  padding: 5px;
+  margin: 3px;
+  font-size: smaller;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+  margin-right: 5em;
+}
+.action-links {
+  height: 20px;
+  width: 20px;
+  margin-left: 2em;
+}
+.action-text {
+  color: azure;
+  font-size: smaller;
+  margin-left: 0.5em;
+}
